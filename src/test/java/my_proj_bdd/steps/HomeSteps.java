@@ -19,9 +19,33 @@ public class HomeSteps extends DriverManager {
     public void acceptCookieHeader(){
         homePage.clickAcceptCookiesButton();
     }
+
+
     @When("I click 'Account' button")
     public void clickMyAccount() {
         homePage.clickAccountToggle();
         homePage.clickAccountButton();
     }
+
+    @When("I click 'Adauga' button with index: (.*)$")
+    public void clickAdauga(String index) {
+        homePage.clickAddToBasketButtonByIndex(index);
+
+    }
+
+    @When("I click 'Shopping Cart' button")
+    public void clickShoppingCart() {
+        homePage.clickShoppingCartButton();
+    }
+
+    @When("I click 'Vezi Cos' button")
+    public void clickVeziCos() {
+        homePage.clickVeziCosButton();
+    }
+
+    @When("I close promotion popup")
+    public void clickToClosePopep(){ homePage.clickPromotionPopupBtn();
+
+    }
 }
+
