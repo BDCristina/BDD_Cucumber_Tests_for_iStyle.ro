@@ -62,7 +62,7 @@ BDD (Behavior Driven Development):
    - Scenario: Negative: Invalid pass, when I don't fill any email.
      - Check when an invalid password is entered without filling any email.
        
-![register_reports](/Users/balanicacristina/Documents/GitHub/JavaProjects/BDD_Cucumber_Tests_for_iStyle.ro/src/test/images_for_reports/register_reports.png)
+![register_reports](/src/test/images_for_reports/register_reports.png)
 
 ### 3. Feature: Shopping cart features
 - Scenario Outline: I can add products in shopping cart
@@ -72,4 +72,4 @@ BDD (Behavior Driven Development):
   - Test data for index_product_1: 0, 3
   - Test data for index_product_2: 3, 6
 
-![shoppingCart_reports](/Users/balanicacristina/Documents/GitHub/JavaProjects/BDD_Cucumber_Tests_for_iStyle.ro/src/test/images_for_reports/shoppingCart_reports.png)
+![shoppingCart_reports](src/test/images_for_reports/shoppingCart_reports.png)
