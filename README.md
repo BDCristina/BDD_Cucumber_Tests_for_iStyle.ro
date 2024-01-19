@@ -13,14 +13,11 @@ BDD (Behavior Driven Development):
 
 ## 📝 Commands in cmd file for Cucumber and Selenium:
 
-- Install Selenium WebDriver: pip install selenium
-- Install Cucumber for Java: pip install cucumber-java
-- Install Gherkin: pip install gherkin
-- Install WebDriver Manager for Selenium :pip install webdriver-manager
+- Install Selenium WebDriver
+- Install Cucumber for Java
+- Install Gherkin
+- Install WebDriver Manager for Selenium 
 
-- To run BDD tests, use in Terminal:
-  - For sign_in BDD tests: behave -f html -o behave-report.html --tags=smoke
-  - For all BDD tests: behave -f html -o behave-report.html --tags=regression
 ## ➡️ Gherkin syntax keywords:
 - Feature
 - Given, When, Then, And, But for steps (or *)
@@ -37,16 +34,15 @@ BDD (Behavior Driven Development):
 3. Choose either ‘Open with GitHub Desktop’ if you have installed ‘GitHub Desktop’ on your computer or ‘Download ZIP’ to download as a ZIP document.
 4. Make sure you use IntelliJ IDEA with this repository.
 5. Install the commands from the cmd file.
-6. Run the test with:
 
-    - For sign_in BDD tests: behave -f html -o behave-report.html --tags=smoke 
-    - For all BDD tests: behave -f html -o behave-report.html --tags=regression
 
 ## ✅ Tests performed:
 ### 1. Feature: Home page feature
   - Scenario: 
     - User can accept cookies 
     - Check if the user can accept cookies.
+    
+![home_reports](/Users/balanicacristina/Documents/GitHub/JavaProjects/BDD_Cucumber_Tests_for_iStyle.ro/src/test/images_for_reports/home_reports.png)
 
 ### 2. Feature: Register features
    - Scenario: Missing email and password
@@ -65,7 +61,9 @@ BDD (Behavior Driven Development):
      
    - Scenario: Negative: Invalid pass, when I don't fill any email.
      - Check when an invalid password is entered without filling any email.
-     
+       
+![register_reports](/Users/balanicacristina/Documents/GitHub/JavaProjects/BDD_Cucumber_Tests_for_iStyle.ro/src/test/images_for_reports/register_reports.png)
+
 ### 3. Feature: Shopping cart features
 - Scenario Outline: I can add products in shopping cart
   - Test data for index_product_1: 1, 5
@@ -73,3 +71,5 @@ BDD (Behavior Driven Development):
 - Scenario Outline: I can delete all products from shopping cart
   - Test data for index_product_1: 0, 3
   - Test data for index_product_2: 3, 6
+
+![shoppingCart_reports](/Users/balanicacristina/Documents/GitHub/JavaProjects/BDD_Cucumber_Tests_for_iStyle.ro/src/test/images_for_reports/shoppingCart_reports.png)
