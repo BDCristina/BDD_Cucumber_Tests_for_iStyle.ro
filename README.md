@@ -42,7 +42,7 @@ BDD (Behavior Driven Development):
     - User can accept cookies 
     - Check if the user can accept cookies.
     
-![home_reports](/Users/balanicacristina/Documents/GitHub/JavaProjects/BDD_Cucumber_Tests_for_iStyle.ro/src/test/images_for_reports/home_reports.png)
+![home_reports](/src/test/images_for_reports/home_reports.png)
 
 ### 2. Feature: Register features
    - Scenario: Missing email and password
